@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Layout 2 </title>
+  </head>
+
+  <style media="screen">
+
+  .inlineblock{
+    width:400px;
+    display:inline-block;
+    margin-left:50px;
+    margin-top: 50px;
+    vertical-align: top;
+  }
+
+
+  </style>
+
+  <body>
+
+<div class="inlineblock">I believe that, whatever design problem you need to solve,
+you should face it with rationality,
+logic and careful analysis if you want to get to the right idea.
+Graphic design is always a synthetic work:
+you need to reduce and remove until you reach the core of the message.
+When you work with typography and lettering,
+ the essential goal is to obtain the best possible legibility.
+A good designer is the one who offers a good service through communication,
+not the one who wants to surprise at any cost,
+neither the one who wants to show how good he is.
+A designer is good if he can solve a problem,
+if he puts forward a useful solution.
+I believe that these rules could be a good start for a career in design.
+Graphic design is always a synthetic work:
+you need to reduce and remove until you reach the core of the message.
+When you work with typography and lettering,
+ the essential goal is to obtain the best possible legibility.
+A good designer is the one who offers a good service through communication,
+not the one who wants to surprise at any cost,
+neither the one who wants to show how good he is.
+A designer is good if he can solve a problem,
+if he puts forward a useful solution.
+I believe that these rules could be a good start for a career in design.
+</div>
+<div class="inlineblock">I believe that, whatever design problem you need to solve,
+you should face it with rationality,
+logic and careful analysis if you want to get to the right idea.
+Graphic design is always a synthetic work:
+you need to reduce and remove until you reach the core of the message.
+When you work with typography and lettering,
+ the essential goal is to obtain the best possible legibility.
+A good designer is the one who offers a good service through communication,
+not the one who wants to surprise at any cost,
+neither the one who wants to show how good he is.
+A designer is good if he can solve a problem,
+if he puts forward a useful solution.
+I believe that these rules could be a good start for a career in design.
+</div>
+<div class="inlineblock">I believe that, whatever design problem you need to solve,
+you should face it with rationality,
+logic and careful analysis if you want to get to the right idea.
+Graphic design is always a synthetic work:
+you need to reduce and remove until you reach the core of the message.
+When you work with typography and lettering,
+ the essential goal is to obtain the best possible legibility.
+A good designer is the one who offers a good service through communication,
+not the one who wants to surprise at any cost,
+neither the one who wants to show how good he is.
+A designer is good if he can solve a problem,
+if he puts forward a useful solution.
+I believe that these rules could be a good start for a career in design.
+</div>
+<div class="inlineblock">I believe that, whatever design problem you need to solve,
+you should face it with rationality,
+logic and careful analysis if you want to get to the right idea.
+Graphic design is always a synthetic work:
+you need to reduce and remove until you reach the core of the message.
+When you work with typography and lettering,
+ the essential goal is to obtain the best possible legibility.
+A good designer is the one who offers a good service through communication,
+not the one who wants to surprise at any cost,
+neither the one who wants to show how good he is.
+A designer is good if he can solve a problem,
+if he puts forward a useful solution.
+I believe that these rules could be a good start for a career in design.
+</div>
+<div class="inlineblock">I believe that, whatever design problem you need to solve,
+you should face it with rationality,
+logic and careful analysis if you want to get to the right idea.
+Graphic design is always a synthetic work:
+you need to reduce and remove until you reach the core of the message.
+When you work with typography and lettering,
+ the essential goal is to obtain the best possible legibility.
+A good designer is the one who offers a good service through communication,
+not the one who wants to surprise at any cost,
+neither the one who wants to show how good he is.
+A designer is good if he can solve a problem,
+if he puts forward a useful solution.
+I believe that these rules could be a good start for a career in design.
+</div>
+<div class="inlineblock">I believe that, whatever design problem you need to solve,
+you should face it with rationality,
+logic and careful analysis if you want to get to the right idea.
+Graphic design is always a synthetic work:
+you need to reduce and remove until you reach the core of the message.
+When you work with typography and lettering,
+ the essential goal is to obtain the best possible legibility.
+A good designer is the one who offers a good service through communication,
+not the one who wants to surprise at any cost,
+neither the one who wants to show how good he is.
+A designer is good if he can solve a problem,
+if he puts forward a useful solution.
+I believe that these rules could be a good start for a career in design.
+</div>
+
+  </body>
+</html>
