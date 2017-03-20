@@ -3,13 +3,75 @@
   <head>
     <meta charset="utf-8">
     <title> Homepage</title>
+
+<style media="screen">
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFDEAD;
+}
+
+h1{
+	font-size:1000%;
+	color:white;
+	background-color: #FFDEAD;
+	margin-left:20px;
+	margin-bottom: -70px;
+  margin-top: -10px;
+}
+
+h2{
+	font-size:500%;
+	color:white;
+	background-color: #FFDEAD;
+	margin-left:20px;
+	margin-bottom: -40px;
+}
+
+a{
+  colour: white;
+  text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: grey;
+    text-decoration: line-through;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: orange;
+}
+
+</style>
+
   </head>
   <body>
 
-    Dominique Vine
 
+    <h1>Dominique Vine</h1>
+    <br>
+    <br>
+
+
+<div class="column1">
+
+    <h2>
     <a href="15_variations/index.html">15 Variations</a>
+
+<br>
+
     <a href="essay/index.html">Essay</a>
+    </h2>
+
+</div>
 
   </body>
 </html>
