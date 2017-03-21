@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> Homepage</title>
+    <title>This is the Homepage</title>
 
 <style media="screen">
 
@@ -21,7 +21,7 @@ h1{
 }
 
 h2{
-	font-size:500%;
+	font-size:300%;
 	color:white;
 	background-color: #FFDEAD;
 	margin-left:20px;
@@ -30,7 +30,7 @@ h2{
 
 a{
   colour: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:link {
@@ -59,6 +59,11 @@ a:active {
     <h1>Dominique Vine</h1>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
 
 
 <div class="column1">
