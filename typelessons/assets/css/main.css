@@ -1,0 +1,40 @@
+
+.nav{
+  font-family:monospace;
+  font-size: 120%;
+  line-height: 50px;
+  padding-left: 50px;
+  padding-top: 130px;
+  padding-right: 30px;
+  position: fixed;
+  padding-bottom: 100%;
+  background-color: white;
+  display: inline-block;
+}
+
+
+h1{
+  font-family: arial;
+  margin-left: 25%;
+  font-size: 500%;
+}
+
+.author4{
+  margin-left: 17%;
+  transform: rotate(-90deg);
+  position: fixed;
+  font-size: 80%;
+  font-family: arial;
+  margin-top: 4%;
+}
+
+p{
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 80%;
+  font-family: arial;
+}
+
+img{
+  width: 30%;
+}
