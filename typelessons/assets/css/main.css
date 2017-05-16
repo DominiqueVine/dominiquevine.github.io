@@ -1,40 +1,115 @@
 
 .nav{
   font-family:monospace;
-  font-size: 120%;
+  font-size: 17px;
+  color: black;
   line-height: 50px;
-  padding-left: 50px;
-  padding-top: 130px;
-  padding-right: 30px;
+  left: 0px;
+  top: 0px;
+  padding-top: 260px;
+  padding-left: 55px;
+  padding-right: 55px;
   position: fixed;
   padding-bottom: 100%;
-  background-color: white;
   display: inline-block;
+  border-right: 1px;
+}
+
+.nav a{
+  color: black;
+}
+
+.nav a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+.nav a:active{
+    color: red;
 }
 
 
-h1{
+.headerreadings1{
   font-family: arial;
   margin-left: 25%;
-  font-size: 500%;
+  margin-right: 25%;
+  margin-top: -50px;
+  font-size: 55px;
+  line-height: 180%;
+}
+
+.headerreadings2{
+  font-family: arial;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: -50px;
+  font-size: 55px;
+  line-height: 180%;
+}
+
+.author1{
+  margin-left: 16.1%;
+  transform: rotate(-90deg);
+  position: fixed;
+  font-size: 15px;
+  font-family: arial;
+  margin-top: 4%;
 }
 
 .author4{
   margin-left: 17%;
   transform: rotate(-90deg);
   position: fixed;
-  font-size: 80%;
+  font-size: 15px;
   font-family: arial;
-  margin-top: 4%;
+  margin-top: 3%;
 }
 
-p{
+.author3{
+  margin-left: 16.3%;
+  transform: rotate(-90deg);
+  position: fixed;
+  font-size: 15px;
+  font-family: arial;
+  margin-top: 3.5%;
+}
+
+.maintext{
   margin-left: 25%;
   margin-right: 25%;
-  font-size: 80%;
+  font-size: 15px;
   font-family: arial;
+  margin-top: -20px;
 }
 
 img{
-  width: 30%;
+  width: 100%;
+  align-items: center;
+}
+
+.display1 img{
+  background: url("../images/card-back.jpg") no-repeat;
+}
+
+.display1 img:hover{
+  background-image: url("assets/images/lesson3/futurist.jpg") no-repeat;
+}
+
+.quotes {
+  position: fixed;
+  top:0px;
+  right:20px;
+  height:calc(100vh - 20px);
+  width: 15%;
+  background-color: white;
+  font-size: 15px;
+  overflow: scroll;
+  font-family: arial;
+  padding-top: 40px;
+  text-decoration: underline;
+  padding-bottom: 100px;
 }
