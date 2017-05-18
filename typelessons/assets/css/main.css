@@ -1,13 +1,14 @@
 
 .nav{
-  font-family:monospace;
-  font-size: 17px;
+  font-family:arial;
+  font-size: 12px;
+  font-weight: bolder;
   color: black;
   line-height: 50px;
   left: 0px;
   top: 0px;
   padding-top: 260px;
-  padding-left: 55px;
+  padding-left: 80px;
   padding-right: 55px;
   position: fixed;
   padding-bottom: 100%;
@@ -17,6 +18,7 @@
 
 .nav a{
   color: black;
+    text-decoration: none;
 }
 
 .nav a:visited{
@@ -26,12 +28,34 @@
 
 .nav a:hover{
     color: white;
+      text-decoration: none;
 }
 
 .nav a:active{
-    color: red;
+    color: white;
+      text-decoration: none;
 }
 
+
+/* unvisited link */
+.quotes a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
 
 .headerreadings1{
   font-family: arial;
@@ -86,17 +110,21 @@
   margin-top: -20px;
 }
 
+p{
+  padding-bottom: 7px;
+}
+
 img{
   width: 100%;
   align-items: center;
 }
 
-.display1 img{
-  background: url("../images/card-back.jpg") no-repeat;
+.grayscale{
+  filter: grayscale(100%);
 }
 
-.display1 img:hover{
-  background-image: url("assets/images/lesson3/futurist.jpg") no-repeat;
+.grayscale:hover{
+  filter: grayscale(0);
 }
 
 .quotes {
@@ -104,12 +132,231 @@ img{
   top:0px;
   right:20px;
   height:calc(100vh - 20px);
-  width: 15%;
+  width: 20%;
   background-color: white;
-  font-size: 15px;
+  font-size: 20px;
   overflow: scroll;
   font-family: arial;
   padding-top: 40px;
   text-decoration: underline;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
+  padding-top: 270px;
+  padding-right: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col__1of2{
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+}
+
+.content{
+  padding-right: 5px;
+}
+
+.visualessay{
+  margin-left:25%;
+  margin-right: 2%;
+  position: absolute;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+.row {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.align__top {
+  align-items:flex-start;
+}
+
+.col__1of3 {
+  flex:0 0 33.333%;
+}
+
+.col__2of3 {
+  flex:0 0 66.666%;
+}
+
+.content {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:20px;
+  margin:5px;
+}
+
+.content img {
+  width:100%;
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    filter: grayscale(100%);
+    width:100px;
+    background: none;
+}
+
+#myBtn:hover {
+  filter: grayscale(0%);
+}
+
+.robert{
+  margin-left: 15%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: arial;
+  margin-top: 4%;
+}
+
+.jan{
+  margin-left: 13%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: arial;
+  margin-top: 104%;
+}
+
+.herbert{
+  margin-left: 13%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: arial;
+  margin-top: 141%;
+}
+
+.beatrice{
+  margin-left: 12%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: arial;
+  margin-top: 180%;
+}
+
+.bruno{
+  margin-left: 9%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: arial;
+  margin-top: 246%;
+}
+
+.lessonbutton1{
+  font-family: arial;
+  font-weight: bolder;
+  line-height: 10%;
+  color: white;
+  margin-top: 50px;
+  font-size: 12px;
+  line-height: 180%;
+  margin-left: 21%;
+  position: fixed;
+}
+
+
+.lessonbutton2{
+  font-family: arial;
+  font-weight: bolder;
+  line-height: 10%;
+  color: white;
+  margin-top: 50px;
+  font-size: 12px;
+  line-height: 180%;
+  margin-left: 46%;
+  position: fixed;
+}
+
+.lessonbutton3{
+  font-family: arial;
+  font-weight: bolder;
+  color: white;
+  line-height: 10%;
+  margin-top: 50px;
+  font-size: 12px;
+  line-height: 180%;
+  margin-left: 71%;
+  position: fixed;
+}
+
+.visualarchivebutton{
+  font-family: arial;
+  font-weight: bolder;
+  color: white;
+  position: fixed;
+  line-height: 10%;
+  margin-top: 45.5%;
+  font-size: 12px;
+  line-height: 180%;
+  margin-left: 45%
+}
+
+
+/* unvisited link */
+.home a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+.home a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+.home a:hover {
+    opacity: 0;
+    text-decoration: none;
+}
+
+/* selected link */
+.home a:active {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* js show me*/
+
+.blur {
+  position: fixed;
+  opacity:0;
+  transition:all 2s;
+  filter: blur(20px);
+  pointer-events: none;
+}
+
+.blur.showme {
+  opacity:1;
+  filter: blur(0);
+}
+
+
+.oase__image{
+  top: 150px;
+  left: 400px;
 }
