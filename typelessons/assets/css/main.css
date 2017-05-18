@@ -296,6 +296,9 @@ img{
   position: fixed;
 }
 
+.lessonbutton2 a{
+text-decoration: none;
+}
 
 .lessonbutton1{
   font-family: arial;
@@ -310,6 +313,10 @@ img{
   text-decoration: none;
 }
 
+.lessonbutton1 a{
+text-decoration: none;
+}
+
 .lessonbutton3{
   font-family: arial;
   font-weight: bolder;
@@ -320,6 +327,10 @@ img{
   line-height: 180%;
   margin-left: 72%;
   position: fixed;
+}
+
+.lessonbutton3 a{
+text-decoration: none;
 }
 
 .visualarchivebutton{
@@ -334,8 +345,9 @@ img{
   margin-left: 45%
 }
 
-
-
+.visualarchivebutton a{ 
+text-decoration: none;
+}
 
 
 
