@@ -265,16 +265,22 @@ img{
   margin-top: 246%;
 }
 
-.lessonbutton1{
-  font-family: arial;
-  font-weight: bolder;
-  line-height: 10%;
-  color: white;
-  margin-top: 50px;
-  font-size: 12px;
-  line-height: 180%;
-  margin-left: 21%;
-  position: fixed;
+
+
+
+/* homepage*/
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.stretch {
+    width:100%;
 }
 
 
@@ -286,8 +292,22 @@ img{
   margin-top: 50px;
   font-size: 12px;
   line-height: 180%;
-  margin-left: 46%;
+  margin-left: 47%;
   position: fixed;
+}
+
+
+.lessonbutton1{
+  font-family: arial;
+  font-weight: bolder;
+  line-height: 10%;
+  color: white;
+  margin-top: 50px;
+  font-size: 12px;
+  line-height: 180%;
+  margin-left: 22%;
+  position: fixed;
+  text-decoration: none;
 }
 
 .lessonbutton3{
@@ -298,7 +318,7 @@ img{
   margin-top: 50px;
   font-size: 12px;
   line-height: 180%;
-  margin-left: 71%;
+  margin-left: 72%;
   position: fixed;
 }
 
@@ -315,38 +335,25 @@ img{
 }
 
 
-/* unvisited link */
-.home a:link {
-    color: white;
-    text-decoration: none;
+
+
+
+
+
+.rollover{
+  color: white;
+  text-decoration: none;
 }
 
-/* visited link */
-.home a:visited {
-    color: white;
-    text-decoration: none;
+.rollover:hover{
+  opacity: 0;
 }
-
-/* mouse over link */
-.home a:hover {
-    opacity: 0;
-    text-decoration: none;
-}
-
-/* selected link */
-.home a:active {
-    color: white;
-    text-decoration: none;
-}
-
 
 /* js show me*/
 
 .blur {
   position: fixed;
   opacity:0;
-  transition:all 2s;
-  filter: blur(20px);
   pointer-events: none;
 }
 
@@ -356,7 +363,30 @@ img{
 }
 
 
-.oase__image{
-  top: 150px;
-  left: 400px;
+.beatriceblurb__image{
+  width:40%;
+  margin-top: 12%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.brunoblurb__image{
+  width:40%;
+  margin-top: 12%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.allanblurb__image{
+  width:40%;
+  margin-top: 12%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.visualblurb__image{
+  width:40%;
+  margin-top: 12%;
+  margin-left: 30%;
+  margin-right: 30%;
 }

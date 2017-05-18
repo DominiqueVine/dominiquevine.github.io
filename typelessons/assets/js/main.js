@@ -69,6 +69,36 @@ $(document).ready(function() {
 
 
 
+ $('.brunoblurb').mouseenter(function() {
+ $('.brunoblurb__image').addClass('showme');
+ });
+
+ $('.brunoblurb').mouseleave(function() {
+ $('.brunoblurb__image').removeClass('showme');
+ });
+
+
+
+
+ $('.allanblurb').mouseenter(function() {
+ $('.allanblurb__image').addClass('showme');
+ });
+
+ $('.allanblurb').mouseleave(function() {
+ $('.allanblurb__image').removeClass('showme');
+ });
+
+
+
+
+ $('.visualblurb').mouseenter(function() {
+ $('.visualblurb__image').addClass('showme');
+ });
+
+ $('.visualblurb').mouseleave(function() {
+ $('.visualblurb__image').removeClass('showme');
+ });
+
 
 
 
