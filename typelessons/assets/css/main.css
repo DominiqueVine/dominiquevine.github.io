@@ -1,41 +1,4 @@
 
-.nav{
-  font-family:arial;
-  font-size: 12px;
-  font-weight: bolder;
-  color: black;
-  line-height: 50px;
-  left: 0px;
-  top: 0px;
-  padding-top: 260px;
-  padding-left: 80px;
-  padding-right: 55px;
-  position: fixed;
-  padding-bottom: 100%;
-  display: inline-block;
-  border-right: 1px;
-}
-
-.nav a{
-  color: black;
-    text-decoration: none;
-}
-
-.nav a:visited{
-  color: black;
-  text-decoration: none;
-}
-
-.nav a:hover{
-    color: white;
-      text-decoration: none;
-}
-
-.nav a:active{
-    color: white;
-      text-decoration: none;
-}
-
 
 /* unvisited link */
 .quotes a:link {
@@ -58,25 +21,25 @@ a:active {
 }
 
 .headerreadings1{
-  font-family: arial;
-  margin-left: 25%;
+  font-family: helvetica;
+  margin-left: 6%;
   margin-right: 25%;
-  margin-top: -50px;
+  margin-top: 50px;
   font-size: 55px;
   line-height: 180%;
 }
 
 .headerreadings2{
-  font-family: arial;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: -50px;
+  font-family: helvetica;
+  margin-left: 6%;
+  margin-right: 45%;
+  margin-top: 50px;
   font-size: 55px;
   line-height: 180%;
 }
 
 .author1{
-  margin-left: 16.1%;
+  margin-left: 1%;
   transform: rotate(-90deg);
   position: fixed;
   font-size: 15px;
@@ -85,30 +48,63 @@ a:active {
 }
 
 .author4{
-  margin-left: 17%;
+  margin-left: 1%;
   transform: rotate(-90deg);
   position: fixed;
   font-size: 15px;
   font-family: arial;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 .author3{
-  margin-left: 16.3%;
+  margin-left: 1%;
   transform: rotate(-90deg);
   position: fixed;
   font-size: 15px;
   font-family: arial;
-  margin-top: 3.5%;
+  margin-top: 4%;
 }
 
 .maintext{
-  margin-left: 25%;
-  margin-right: 25%;
-  font-size: 15px;
+  margin-left: 10%;
+  margin-right: 50%;
+  font-size: 16px;
   font-family: arial;
   margin-top: -20px;
+  line-height: 20px;
 }
+
+.mainnav a{
+  font-family: helvetica;
+  font-weight: bolder;
+  margin-top: -4%;
+  font-size: 12px;
+  position: fixed;
+  text-decoration: none;
+}
+
+.lesson1main{
+  margin-left: 16%;
+}
+
+
+.lesson2main{
+  margin-left: 32%;
+}
+
+.lesson3main{
+  margin-left: 48%;
+}
+
+.visualarchivemain{
+  margin-left: 64%;
+}
+
+.menumain{
+  margin-left: 80%;
+}
+
+
 
 p{
   padding-bottom: 7px;
@@ -131,23 +127,28 @@ img{
   position: fixed;
   top:0px;
   right:20px;
-  height:calc(100vh - 20px);
-  width: 20%;
+  height:calc(110vh - 5px);
+  width: 40%;
   background-color: white;
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 32px;
   overflow: scroll;
-  font-family: arial;
-  padding-top: 40px;
-  text-decoration: underline;
+  font-family: helvetica;
+  text-decoration: none;
+  margin-top: 6%;
   padding-bottom: 20px;
-  padding-top: 270px;
+  padding-top: 250px;
   padding-right: 20px;
 }
+
+/* Visual Essay*/
 
 .row {
   display: flex;
   flex-wrap: wrap;
 }
+
+
 
 .col__1of2{
   flex-grow: 0;
@@ -160,8 +161,8 @@ img{
 }
 
 .visualessay{
-  margin-left:25%;
-  margin-right: 2%;
+  margin-left:10%;
+  margin-right: 8%;
   position: absolute;
 }
 
@@ -198,25 +199,25 @@ img{
 }
 
 
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    filter: grayscale(100%);
-    width:100px;
-    background: none;
+
+.top {
+  position: fixed;
+  right:0;
+  bottom:0;
+  width: 100px;
+  padding: 20px;
+  background-color: none;
+  cursor: pointer;
 }
 
-#myBtn:hover {
-  filter: grayscale(0%);
+.top a {
+  background: none;
+  text-decoration: none;
 }
+
 
 .robert{
-  margin-left: 15%;
+  margin-left: 1%;
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
@@ -226,49 +227,49 @@ img{
 }
 
 .jan{
-  margin-left: 13%;
+  margin-left: -1.5%;
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
   font-size: 15px;
   font-family: arial;
-  margin-top: 104%;
+  margin-top: 116%;
 }
 
 .herbert{
-  margin-left: 13%;
+  margin-left: -1.5%;
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
   font-size: 15px;
   font-family: arial;
-  margin-top: 141%;
+  margin-top: 157%;
 }
 
 .beatrice{
-  margin-left: 12%;
+  margin-left: -2%;
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
   font-size: 15px;
   font-family: arial;
-  margin-top: 180%;
+  margin-top: 202%;
 }
 
 .bruno{
-  margin-left: 9%;
+  margin-left: -4.5%;
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
   font-size: 15px;
   font-family: arial;
-  margin-top: 246%;
+  margin-top: 274%;
 }
 
 
 
 
-/* homepage*/
+/* Menu*/
 
 .background {
     width: 100%;
@@ -283,13 +284,12 @@ img{
     width:100%;
 }
 
-
 .lessonbutton2{
-  font-family: arial;
+  font-family: helvetica;
   font-weight: bolder;
   line-height: 10%;
   color: white;
-  margin-top: 50px;
+  margin-top: 2%;
   font-size: 12px;
   line-height: 180%;
   margin-left: 47%;
@@ -301,11 +301,11 @@ text-decoration: none;
 }
 
 .lessonbutton1{
-  font-family: arial;
+  font-family: helvetica;
   font-weight: bolder;
   line-height: 10%;
   color: white;
-  margin-top: 50px;
+  margin-top: 2%;
   font-size: 12px;
   line-height: 180%;
   margin-left: 22%;
@@ -318,38 +318,39 @@ text-decoration: none;
 }
 
 .lessonbutton3{
-  font-family: arial;
+  font-family: helvetica;
   font-weight: bolder;
   color: white;
   line-height: 10%;
-  margin-top: 50px;
+  margin-top: 2%;
   font-size: 12px;
   line-height: 180%;
   margin-left: 72%;
   position: fixed;
 }
 
+
 .lessonbutton3 a{
 text-decoration: none;
 }
 
+
 .visualarchivebutton{
-  font-family: arial;
+  font-family: helvetica;
   font-weight: bolder;
   color: white;
   position: fixed;
   line-height: 10%;
-  margin-top: 45.5%;
+  margin-top: 47%;
   font-size: 12px;
   line-height: 180%;
   margin-left: 46.5%;
 }
 
+
 .visualarchivebutton a{
 text-decoration: none;
 }
-
-
 
 
 .rollover{
