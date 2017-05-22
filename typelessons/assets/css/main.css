@@ -1,114 +1,102 @@
 
-
-/* unvisited link */
-.quotes a:link {
-    color: black;
-}
-
-/* visited link */
-a:visited {
-    color: black;
-}
-
-/* mouse over link */
-a:hover {
-    color: white;
-}
-
-/* selected link */
-a:active {
-    color: white;
-}
-
 .headerreadings1{
   font-family: helvetica;
-  margin-left: 6%;
-  margin-right: 25%;
-  margin-top: 50px;
-  font-size: 55px;
-  line-height: 180%;
+  margin-left: 2%;
+  margin-right: 50%;
+  margin-top: 90px;
+  font-size: 53px;
+  padding-bottom: 5px;
+  line-height: 110px;
+  text-align: left;
 }
 
 .headerreadings2{
   font-family: helvetica;
-  margin-left: 6%;
-  margin-right: 45%;
-  margin-top: 50px;
-  font-size: 55px;
-  line-height: 180%;
+  margin-left: 2%;
+  margin-right: 50%;
+  margin-top: 90px;
+  font-size: 53px;
+  line-height: 110px;
+  padding-bottom: 5px;
+  text-align: left;
 }
 
-.author1{
-  margin-left: 1%;
+.author {
+  margin-left: -2%;
   transform: rotate(-90deg);
   position: fixed;
-  font-size: 15px;
-  font-family: arial;
-  margin-top: 4%;
-}
-
-.author4{
-  margin-left: 1%;
-  transform: rotate(-90deg);
-  position: fixed;
-  font-size: 15px;
-  font-family: arial;
-  margin-top: 4%;
-}
-
-.author3{
-  margin-left: 1%;
-  transform: rotate(-90deg);
-  position: fixed;
-  font-size: 15px;
-  font-family: arial;
-  margin-top: 4%;
+  font-size: 12px;
+  font-family: helvetica;
+  margin-top: 3%;
 }
 
 .maintext{
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-top: -30px;
   margin-right: 50%;
   font-size: 16px;
-  font-family: arial;
-  margin-top: -20px;
+  font-family: helvetica;
   line-height: 20px;
+  padding-right: 30px;
+  border-right: solid 1px;
+}
+
+p{
+  padding-bottom: 7px;
+}
+
+.widow {
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .mainnav a{
   font-family: helvetica;
   font-weight: bolder;
-  margin-top: -4%;
+  margin-top: -70px;
   font-size: 12px;
   position: fixed;
   text-decoration: none;
+  z-index: 100;
+  color: red;
 }
+
+/* visited link */
+.mainnav a:visited {
+    color: red;
+}
+
+/* mouse over link */
+.mainnav a:hover {
+    color: white;
+}
+
+/* selected link */
+.mainnav a:active {
+    color: red;
+}
+
 
 .lesson1main{
-  margin-left: 16%;
+  margin-left: 6%;
 }
 
-
 .lesson2main{
-  margin-left: 32%;
+  margin-left: 27%;
 }
 
 .lesson3main{
-  margin-left: 48%;
+  margin-left: 47%;
 }
 
 .visualarchivemain{
-  margin-left: 64%;
+  margin-left: 68%;
 }
 
 .menumain{
-  margin-left: 80%;
+  margin-left: 90%;
 }
 
-
-
-p{
-  padding-bottom: 7px;
-}
 
 img{
   width: 100%;
@@ -123,23 +111,74 @@ img{
   filter: grayscale(0);
 }
 
+
+/* visited link */
+.quotes a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+.quotes a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+
+/* scroll bar  */
+
+.quotes a:active {
+    color: red;
+    text-decoration: none;
+}
+
 .quotes {
   position: fixed;
-  top:0px;
-  right:20px;
-  height:calc(110vh - 5px);
-  width: 40%;
+  right:5px;
+  top:40px;
+  height:calc(97vh - 20px);
+  width: 45%;
   background-color: white;
   font-size: 30px;
   line-height: 32px;
   overflow: scroll;
   font-family: helvetica;
   text-decoration: none;
-  margin-top: 6%;
-  padding-bottom: 20px;
-  padding-top: 250px;
   padding-right: 20px;
+  padding-top: 330px;
 }
+
+.quotes img{
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+
+/* In Text Quotes*/
+
+.intextquotes {
+  font-size: 28px;
+  line-height: 32px;
+  font-family: helvetica;
+  font-weight: bolder;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.intextquotes a {
+  color: black;
+  text-decoration: none;
+}
+
+.intextquotes a:hover {
+  opacity:0;
+  text-decoration: none;
+}
+
+
 
 /* Visual Essay*/
 
@@ -147,8 +186,6 @@ img{
   display: flex;
   flex-wrap: wrap;
 }
-
-
 
 .col__1of2{
   flex-grow: 0;
@@ -161,7 +198,7 @@ img{
 }
 
 .visualessay{
-  margin-left:10%;
+  margin-left:8%;
   margin-right: 8%;
   position: absolute;
 }
@@ -198,8 +235,6 @@ img{
   width:100%;
 }
 
-
-
 .top {
   position: fixed;
   right:0;
@@ -221,7 +256,7 @@ img{
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   font-family: arial;
   margin-top: 4%;
 }
@@ -231,17 +266,18 @@ img{
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   font-family: arial;
   margin-top: 116%;
 }
+
 
 .herbert{
   margin-left: -1.5%;
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   font-family: arial;
   margin-top: 157%;
 }
@@ -251,7 +287,7 @@ img{
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   font-family: arial;
   margin-top: 202%;
 }
@@ -261,12 +297,10 @@ img{
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   font-family: arial;
   margin-top: 274%;
 }
-
-
 
 
 /* Menu*/
@@ -284,31 +318,15 @@ img{
     width:100%;
 }
 
-.lessonbutton2{
-  font-family: helvetica;
-  font-weight: bolder;
-  line-height: 10%;
-  color: white;
-  margin-top: 2%;
-  font-size: 12px;
-  line-height: 180%;
-  margin-left: 47%;
-  position: fixed;
-}
-
-.lessonbutton2 a{
-text-decoration: none;
-}
-
 .lessonbutton1{
   font-family: helvetica;
   font-weight: bolder;
   line-height: 10%;
   color: white;
-  margin-top: 2%;
+  margin-top: .7%;
   font-size: 12px;
   line-height: 180%;
-  margin-left: 22%;
+  margin-left: 6%;
   position: fixed;
   text-decoration: none;
 }
@@ -317,15 +335,31 @@ text-decoration: none;
 text-decoration: none;
 }
 
+.lessonbutton2{
+  font-family: helvetica;
+  font-weight: bolder;
+  line-height: 10%;
+  color: white;
+  margin-top: .7%;
+  font-size: 12px;
+  line-height: 180%;
+  margin-left: 27%;
+  position: fixed;
+}
+
+.lessonbutton2 a{
+text-decoration: none;
+}
+
 .lessonbutton3{
   font-family: helvetica;
   font-weight: bolder;
   color: white;
   line-height: 10%;
-  margin-top: 2%;
+  margin-top: .7%;
   font-size: 12px;
   line-height: 180%;
-  margin-left: 72%;
+  margin-left: 47%;
   position: fixed;
 }
 
@@ -341,17 +375,38 @@ text-decoration: none;
   color: white;
   position: fixed;
   line-height: 10%;
-  margin-top: 47%;
+  margin-top: .7%;
   font-size: 12px;
   line-height: 180%;
-  margin-left: 46.5%;
+  margin-left: 68%;
 }
-
 
 .visualarchivebutton a{
 text-decoration: none;
 }
 
+.menubutton {
+  font-family: helvetica;
+  font-weight: bolder;
+  color: white;
+  position: fixed;
+  line-height: 10%;
+  margin-top: .7%;
+  font-size: 12px;
+  line-height: 180%;
+  margin-left: 90%;
+}
+
+.menubutton a{
+text-decoration: none;
+color: white;
+}
+
+
+.menubutton a:hover{
+text-decoration: none;
+opacity: 0;
+}
 
 .rollover{
   color: white;
