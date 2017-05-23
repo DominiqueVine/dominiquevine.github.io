@@ -34,9 +34,9 @@
   margin-left: 5%;
   margin-top: -30px;
   margin-right: 50%;
-  font-size: 16px;
+  font-size: 20px;
   font-family: helvetica;
-  line-height: 20px;
+  line-height: 25px;
   padding-right: 30px;
   border-right: solid 1px;
 }
@@ -162,14 +162,14 @@ img{
 /* In Text Quotes*/
 
 .intextquotes {
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 30px;
+  line-height: 34px;
   font-family: helvetica;
   font-weight: bolder;
   text-decoration: none;
   padding-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 22px;
 }
 
 .intextquotes a {
