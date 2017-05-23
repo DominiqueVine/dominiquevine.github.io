@@ -85,7 +85,7 @@ $(document).ready(function() {
 
 
 
- $(document).on('click', 'a', function(event){
+ $(document).on('click', '.top a', function(event){
      event.preventDefault();
 
      $('html, body').animate({
