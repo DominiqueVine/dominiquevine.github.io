@@ -85,6 +85,30 @@ $(document).ready(function() {
 
 
 
+
+ $('.beatriceblurbred').mouseenter(function() {
+ $('.beatriceblurbred__image').addClass('showme');
+ });
+
+ $('.beatriceblurbred').mouseleave(function() {
+ $('.beatriceblurbred__image').removeClass('showme');
+ });
+
+
+
+
+
+  $('.beatrice').mouseenter(function() {
+  $('.beatrice__image').addClass('showme');
+  });
+
+  $('.beatrice').mouseleave(function() {
+  $('.beatrice__image').removeClass('showme');
+  });
+
+
+
+
  $(document).on('click', '.top a', function(event){
      event.preventDefault();
 
@@ -92,6 +116,16 @@ $(document).ready(function() {
          scrollTop: $( $.attr(this, 'href') ).offset().top
      }, 500);
  });
+
+
+
+
+
+
+
+
+
+
 
 
 

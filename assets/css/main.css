@@ -37,7 +37,7 @@
   font-size: 20px;
   font-family: helvetica;
   line-height: 25px;
-  padding-right: 30px;
+  padding-right: 45px;
   border-right: solid 1px;
 }
 
@@ -307,6 +307,7 @@ img{
 }
 
 
+
 /* Menu*/
 
 .background {
@@ -337,6 +338,10 @@ img{
 
 .lessonbutton1 a{
 text-decoration: none;
+}
+
+.lessonbutton1 a:visited{
+text-decoration:line-through;
 }
 
 .lessonbutton2{
@@ -411,6 +416,51 @@ color: white;
 text-decoration: none;
 opacity: 0;
 }
+
+
+
+
+
+.rollover2{
+  color: red;
+  text-decoration: none;
+}
+
+.rollover2:hover{
+  opacity: 0;
+}
+
+
+.blur2 {
+  position: fixed;
+  opacity:0;
+  pointer-events: none;
+  z-index: 99999;
+}
+
+.blur2.showme {
+  opacity:1;
+  filter: blur(0);
+}
+
+
+.beatriceblurbred__image{
+  width:40%;
+  margin-top: 12%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
+.beatrice__image{
+  width:40%;
+  margin-top: 12%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
+
 
 .rollover{
   color: white;
