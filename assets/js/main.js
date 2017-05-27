@@ -95,6 +95,33 @@ $(document).ready(function() {
  });
 
 
+ $('.allanblurbred').mouseenter(function() {
+ $('.allanblurbred__image').addClass('showme');
+ });
+
+ $('.allanblurbred').mouseleave(function() {
+ $('.allanblurbred__image').removeClass('showme');
+ });
+
+
+  $('.brunoblurbred').mouseenter(function() {
+  $('.brunoblurbred__image').addClass('showme');
+  });
+
+  $('.brunoblurbred').mouseleave(function() {
+  $('.brunoblurbred__image').removeClass('showme');
+  });
+
+
+  $('.visualblurbred').mouseenter(function() {
+  $('.visualblurbred__image').addClass('showme');
+  });
+
+  $('.visualblurbred').mouseleave(function() {
+  $('.visualblurbred__image').removeClass('showme');
+  });
+
+
 
 
 
@@ -105,6 +132,25 @@ $(document).ready(function() {
   $('.beatrice').mouseleave(function() {
   $('.beatrice__image').removeClass('showme');
   });
+
+
+  $('.allan').mouseenter(function() {
+  $('.allan__image').addClass('showme');
+  });
+
+  $('.allan').mouseleave(function() {
+  $('.allan__image').removeClass('showme');
+  });
+
+  $('.bruno').mouseenter(function() {
+  $('.bruno__image').addClass('showme');
+  });
+
+  $('.bruno').mouseleave(function() {
+  $('.bruno__image').removeClass('showme');
+  });
+
+
 
 
 

@@ -1,13 +1,35 @@
 
+body{
+  background-color: WhiteSmoke;
+}
+
+.home img{
+  width: 70%;
+  justify-content: center;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+.enter img{
+  width:20%;
+  margin-left: 40%;
+  margin-top: 1%;
+}
+
 .headerreadings1{
   font-family: helvetica;
   margin-left: 2%;
   margin-right: 50%;
+  text-align:left;
   margin-top: 90px;
-  font-size: 53px;
+  font-size: 60px;
   padding-bottom: 5px;
-  line-height: 110px;
-  text-align: left;
+  line-height: 120px;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: red;
+  background-color: WhiteSmoke;
 }
 
 .headerreadings2{
@@ -19,26 +41,36 @@
   line-height: 110px;
   padding-bottom: 5px;
   text-align: left;
+  background-color: WhiteSmoke;
 }
 
 .author {
-  margin-left: -2%;
-  transform: rotate(-90deg);
-  position: fixed;
+  margin-left: 10.5%;
+  position: absolute;
   font-size: 12px;
   font-family: helvetica;
-  margin-top: 3%;
+  -webkit-transform: rotate(90deg);
+  margin-top: -12.2%;
+}
+
+.allanauthor{
+  margin-top: -5%;
+  position: absolute;
+  margin-left: 2%;
+  font-size: 12px;
+  font-family: helvetica;
 }
 
 .maintext{
-  margin-left: 5%;
-  margin-top: -30px;
+  margin-left: 2%;
+  margin-top: -50px;
   margin-right: 50%;
   font-size: 20px;
   font-family: helvetica;
   line-height: 25px;
   padding-right: 45px;
   border-right: solid 1px;
+  background-color: WhiteSmoke;
 }
 
 p{
@@ -60,6 +92,8 @@ p{
   z-index: 100;
   color: red;
 }
+
+
 
 /* visited link */
 .mainnav a:visited {
@@ -103,6 +137,8 @@ img{
   align-items: center;
 }
 
+
+
 .grayscale{
   filter: grayscale(100%);
 }
@@ -114,7 +150,7 @@ img{
 
 /* visited link */
 .quotes a:visited {
-    color: black;
+    color: red;
     text-decoration: none;
 }
 
@@ -136,7 +172,7 @@ img{
 .quotes {
   position: fixed;
   right:5px;
-  top:40px;
+  top:50px;
   height:calc(97vh - 20px);
   width: 45%;
   background-color: white;
@@ -146,7 +182,8 @@ img{
   font-family: helvetica;
   text-decoration: none;
   padding-right: 20px;
-  padding-top: 330px;
+  padding-top: 458px;
+  background-color: WhiteSmoke;
 }
 
 ::-webkit-scrollbar {
@@ -173,7 +210,7 @@ img{
 }
 
 .intextquotes a {
-  color: black;
+  color: red;
   text-decoration: none;
 }
 
@@ -205,6 +242,11 @@ img{
   margin-left:8%;
   margin-right: 8%;
   position: absolute;
+}
+
+
+.visualessay img{
+  border:10px solid white;
 }
 
 * {
@@ -311,12 +353,14 @@ img{
 /* Menu*/
 
 .background {
-    width: 100%;
+    width: 145%;
     height: 100%;
     position: fixed;
+    margin-left: -22%;
     left: 0px;
     top: 0px;
     z-index: -1;
+    margin-top: -30%;
 }
 
 .stretch {
@@ -424,6 +468,7 @@ opacity: 0;
 .rollover2{
   color: red;
   text-decoration: none;
+  width: 200px;
 }
 
 .rollover2:hover{
@@ -445,19 +490,56 @@ opacity: 0;
 
 
 .beatriceblurbred__image{
-  width:40%;
-  margin-top: 12%;
-  margin-left: 30%;
-  margin-right: 30%;
+  width:100%;
+  margin-top: -12%;
+  justify-content: center;
+}
+
+
+.brunoblurbred__image{
+  width:100%;
+  margin-top: -12%;
+  justify-content: center;
+}
+
+.allanblurbred__image{
+  width:100%;
+  margin-top: -12%;
+  justify-content: center;
+}
+
+.visualblurbred__image{
+  width:100%;
+  margin-top: -12%;
+  justify-content: center;
 }
 
 
 .beatrice__image{
-  width:40%;
-  margin-top: 12%;
+  width:35%;
+  margin-top: -2%;
   margin-left: 30%;
   margin-right: 30%;
+  border:10px solid white;
 }
+
+.allan__image{
+  width:30%;
+  margin-top: -2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border:10px solid white;
+}
+
+.bruno__image{
+  width:50%;
+  margin-top: -2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border:10px solid white;
+}
+
+
 
 
 
