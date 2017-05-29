@@ -44,19 +44,9 @@ body{
   background-color: WhiteSmoke;
 }
 
-.author {
-  margin-left: 10.5%;
-  position: absolute;
-  font-size: 12px;
-  font-family: helvetica;
-  -webkit-transform: rotate(90deg);
-  margin-top: -12.2%;
-}
 
-.allanauthor{
-  margin-top: -5%;
-  position: absolute;
-  margin-left: 2%;
+.author{
+  font-weight: bold;
   font-size: 12px;
   font-family: helvetica;
 }
@@ -72,6 +62,18 @@ body{
   border-right: solid 1px;
   background-color: WhiteSmoke;
 }
+
+.maintext1{
+  margin-left: 2%;
+  margin-top: -50px;
+  margin-right: 50%;
+  font-size: 19px;
+  font-family: helvetica;
+  line-height: 25px;
+  padding-right: 45px;
+  background-color: WhiteSmoke;
+}
+
 
 p{
   padding-bottom: 7px;
@@ -239,14 +241,21 @@ img{
 }
 
 .visualessay{
-  margin-left:4%;
-  margin-right: 8%;
+  margin-left:2%;
+  margin-right: 4%;
   position: absolute;
 }
 
 
 .visualessay img{
   border:10px solid white;
+}
+
+.authornames{
+  font-size: 12px;
+  font-family: helvetica;
+  font-weight: bolder;
+  padding-bottom: 2%;
 }
 
 
@@ -295,99 +304,6 @@ img{
 .top a {
   background: none;
   text-decoration: none;
-}
-
-
-.robert{
-  margin-left: -2%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 3.8%;
-}
-
-.jan{
-  margin-left: -4%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 122%;
-}
-
-
-.herbert{
-  margin-left: -4%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 166%;
-}
-
-.beatrice{
-  margin-left: -8%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 216%;
-}
-
-.bruno{
-  margin-left: -4.5%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 249%;
-}
-
-.adrian{
-  margin-left: -4.3%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 295.5%;
-}
-
-
-.paul{
-  margin-left: -4.3%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 355.5%;
-}
-
-.bob{
-  margin-left: -3%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 394.5%;
-}
-
-.stanley{
-  margin-left: -4.8%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 435%;
 }
 
 
@@ -582,6 +498,12 @@ opacity: 0;
 }
 
 
+.authorlist__image{
+  width:85%;
+  margin-top: -7%;
+}
+
+
 
 
 
@@ -606,6 +528,10 @@ opacity: 0;
 .blur.showme {
   opacity:1;
   filter: blur(0);
+}
+
+.toggleclass{
+    cursor: pointer;
 }
 
 
