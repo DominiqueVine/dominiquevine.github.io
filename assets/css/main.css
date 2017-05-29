@@ -239,7 +239,7 @@ img{
 }
 
 .visualessay{
-  margin-left:8%;
+  margin-left:4%;
   margin-right: 8%;
   position: absolute;
 }
@@ -248,6 +248,7 @@ img{
 .visualessay img{
   border:10px solid white;
 }
+
 
 * {
   box-sizing:border-box;
@@ -298,44 +299,44 @@ img{
 
 
 .robert{
-  margin-left: 1%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 4%;
-}
-
-.jan{
-  margin-left: -1.5%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 116%;
-}
-
-
-.herbert{
-  margin-left: -1.5%;
-  transform: rotate(-90deg);
-  position: absolute;
-  font-weight: bold;
-  font-size: 12px;
-  font-family: arial;
-  margin-top: 157%;
-}
-
-.beatrice{
   margin-left: -2%;
   transform: rotate(-90deg);
   position: absolute;
   font-weight: bold;
   font-size: 12px;
   font-family: arial;
-  margin-top: 202%;
+  margin-top: 3.8%;
+}
+
+.jan{
+  margin-left: -4%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+  margin-top: 122%;
+}
+
+
+.herbert{
+  margin-left: -4%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+  margin-top: 166%;
+}
+
+.beatrice{
+  margin-left: -8%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+  margin-top: 216%;
 }
 
 .bruno{
@@ -345,7 +346,48 @@ img{
   font-weight: bold;
   font-size: 12px;
   font-family: arial;
-  margin-top: 274%;
+  margin-top: 249%;
+}
+
+.adrian{
+  margin-left: -4.3%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+  margin-top: 295.5%;
+}
+
+
+.paul{
+  margin-left: -4.3%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+  margin-top: 355.5%;
+}
+
+.bob{
+  margin-left: -3%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+  margin-top: 394.5%;
+}
+
+.stanley{
+  margin-left: -4.8%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+  margin-top: 435%;
 }
 
 
