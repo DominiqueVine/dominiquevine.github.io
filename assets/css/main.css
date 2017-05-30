@@ -499,8 +499,7 @@ opacity: 0;
 
 
 .authorlist__image{
-  width:85%;
-  margin-top: -7%;
+  width:75%;
 }
 
 
@@ -530,7 +529,7 @@ opacity: 0;
   filter: blur(0);
 }
 
-.toggleclass{
+.ToggleClass{
     cursor: pointer;
 }
 
