@@ -184,7 +184,7 @@ img{
   font-family: helvetica;
   text-decoration: none;
   padding-right: 20px;
-  padding-top: 458px;
+  padding-top: 486px;
   background-color: WhiteSmoke;
 }
 
@@ -448,27 +448,35 @@ opacity: 0;
 
 
 .beatriceblurbred__image{
-  width:100%;
-  margin-top: -12%;
+  width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
   justify-content: center;
 }
 
 
 .brunoblurbred__image{
-  width:100%;
-  margin-top: -12%;
+  width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
   justify-content: center;
 }
 
 .allanblurbred__image{
-  width:100%;
-  margin-top: -12%;
+  width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
   justify-content: center;
 }
 
 .visualblurbred__image{
-  width:100%;
-  margin-top: -12%;
+  width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
   justify-content: center;
 }
 
